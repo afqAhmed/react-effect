@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-item {
+    @apply px-4 py-1 transition;
+  }
+  .container {
+    @apply mx-auto;
+  }
+  .page-header {
+    @apply text-3xl font-thin my-4;
+  }
+  .btn {
+    @apply px-4 bg-cyan-600 rounded shadow-lg shadow-teal-600/30 hover:bg-cyan-400 transition;
+  }
+}
+
+.active {
+  @apply bg-green-300 text-gray-900;
+}
